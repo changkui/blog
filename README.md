@@ -14,7 +14,7 @@ From here you can find all my blog links
 从这里可以找到关于的我所有博客链接
 
 * 掘金：https://juejin.im/user/5a12900351882509e54348ac
-* segmentfault：https://segmentfault.com/u/zhengzhenghao
+* segmentfault：https://segmentfault.com/u/zhengzhuang95
 * 知乎：https://www.zhihu.com/people/beliefs1995/activities
 
 # 附件
