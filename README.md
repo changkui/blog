@@ -1,9 +1,11 @@
 # About Me
 
 Hello, I'm Zheng zhuang, born in 1995. I am a web front-end development engineer.
+
 你好，我是zhengzhuang，出生在1995年。我是一名web前端开发工程师。
 
 Individuals just prefer to research technology, share technology, record their learning moments, and aspire to make their technology more comprehensive upgrade, I have been on the road.
+
 个人只是比较喜欢研究技术，分享技术，记录自己学习的瞬间，立志让自己的技术得到更全面的升级，我一直在路上。
 
 # Url
@@ -11,9 +13,9 @@ Individuals just prefer to research technology, share technology, record their l
 From here you can find all my blog links
 从这里可以找到关于的我所有博客链接
 
-掘金：https://juejin.im/user/5a12900351882509e54348ac
-知乎：https://www.zhihu.com/people/beliefs1995/activities
-segmentfault：https://segmentfault.com/u/zhengzhenghao
+* 掘金：https://juejin.im/user/5a12900351882509e54348ac
+* 知乎：https://www.zhihu.com/people/beliefs1995/activities
+* segmentfault：https://segmentfault.com/u/zhengzhenghao
 
 # 附件
 
