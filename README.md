@@ -22,6 +22,11 @@ From here you can find all my blog links
 
 ## 🎉 整理我平时关注并使用的前端库
 
+### 包管理
+
+* [npm](https://github.com/npm/cli) - 我用这个
+* [yarn](https://github.com/yarnpkg/yarn)
+
 ### 框架
 
 * [react](https://github.com/facebook/react)
@@ -29,6 +34,16 @@ From here you can find all my blog links
 * [taro](https://github.com/NervJS/taro) - 用 React 写小程序，适配微信和支付宝等。
 * [weex](https://github.com/apache/incubator-weex) - Weex 是一个可以使用现代化的 Web 技术开发高性能原生应用的框架
 * (正在学习中)[flutter](https://github.com/flutter/flutter) - 快速在iOS和Android上构建高质量的原生用户界面
+
+### react相关库
+
+* [Taro-UI](https://taro-ui.aotu.io/#/) - Taro UI库
+* [Weex-UI](https://alibaba.github.io/weex-ui/#/cn/) - Weex UI库
+
+### 请求处理
+
+* [axios](https://github.com/axios/axios)
+* [fetch](https://github.com/github/fetch)
 
 # 附件
 
