@@ -20,7 +20,7 @@ From here you can find all my blog links
 * 知乎：https://www.zhihu.com/people/beliefs1995/activities
 
 
-## 🎉 整理我平时关注的前端库
+## 🎉 整理我平时关注并使用的前端库
 
 ### 框架
 
