@@ -19,6 +19,14 @@ From here you can find all my blog links
 * segmentfault：https://segmentfault.com/u/zhengzhuang95
 * 知乎：https://www.zhihu.com/people/beliefs1995/activities
 
+# 🎉 整理我平时关注的前端库
+## 框架
+
+* react
+* vue
+* taro - 用 React 写小程序，适配微信和支付宝等。
+* weex - Weex 是一个可以使用现代化的 Web 技术开发高性能原生应用的框架
+
 # 附件
 
 上一回说到，这千秋月没是佳人离别，时逢枯枝落旧城，却待新兰满长街，战场上未至瑞雪，听故事，这楚霸王乌江诀别了一场皓月。各位看官不好意思，今日江山又小雪，各位路过的，打尖的，或来听小老儿说书的，别忘了多加件衣服
