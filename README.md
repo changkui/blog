@@ -22,11 +22,6 @@ From here you can find all my blog links
 
 ## 🎉 整理我平时关注并使用的前端库
 
-### 包管理
-
-* [npm](https://github.com/npm/cli) - 我用这个
-* [yarn](https://github.com/yarnpkg/yarn)
-
 ### 框架
 
 * [react](https://github.com/facebook/react)
@@ -37,13 +32,40 @@ From here you can find all my blog links
 
 ### react相关库
 
-* [Taro-UI](https://taro-ui.aotu.io/#/) - Taro UI库
-* [Weex-UI](https://alibaba.github.io/weex-ui/#/cn/) - Weex UI库
+* [Taro UI](https://taro-ui.aotu.io/#/) - Taro UI库
+
+### vue相关库
+
+* [Weex UI](https://alibaba.github.io/weex-ui/#/cn/) - Weex UI库
+
+### 打包工具
+
+* [create-react-app](https://github.com/facebook/create-react-app) - react 官方脚手架
+* [vue-cli](https://github.com/vuejs/vue-cli) - vue 官方提供了脚手架
+
+### 包管理
+
+* [npm](https://github.com/npm/cli) - 我用这个
+* [yarn](https://github.com/yarnpkg/yarn)
 
 ### 请求处理
 
 * [axios](https://github.com/axios/axios)
 * [fetch](https://github.com/github/fetch)
+
+### 语言
+
+* [TypeScript](https://github.com/Microsoft/TypeScript)
+
+### 工程
+
+* [live-server](https://github.com/tapio/live-server) - 本地小型服务器很方便推荐使用
+
+### 编辑器
+
+* [VSCode](https://code.visualstudio.com/) - 我使用这个
+* [Weex Studio](https://weex.apache.org/zh/tools/ide.html) - 开发weex项目时使用
+* [Sublime Text ](http://www.sublimetext.com/) - 当个记事本
 
 # 附件
 
