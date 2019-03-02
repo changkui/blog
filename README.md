@@ -47,6 +47,7 @@ From here you can find all my blog links
 
 * [create-react-app](https://github.com/facebook/create-react-app) - react 官方脚手架
 * [vue-cli](https://github.com/vuejs/vue-cli) - vue 官方提供了脚手架
+* [eros](https://github.com/bmfe/eros) - eros 不是框架，是基于 weex 封装、面向前端的 vue 写法的一整套 APP 开源解决方案
 
 ### 请求处理
 
