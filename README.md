@@ -22,6 +22,11 @@ From here you can find all my blog links
 
 ## 🎉 整理我平时关注并使用的前端库
 
+### 包管理
+
+* [npm](https://github.com/npm/cli) - 我用这个
+* [yarn](https://github.com/yarnpkg/yarn)
+
 ### 框架
 
 * [react](https://github.com/facebook/react)
@@ -42,11 +47,6 @@ From here you can find all my blog links
 
 * [create-react-app](https://github.com/facebook/create-react-app) - react 官方脚手架
 * [vue-cli](https://github.com/vuejs/vue-cli) - vue 官方提供了脚手架
-
-### 包管理
-
-* [npm](https://github.com/npm/cli) - 我用这个
-* [yarn](https://github.com/yarnpkg/yarn)
 
 ### 请求处理
 
