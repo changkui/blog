@@ -17,7 +17,6 @@ From here you can find all my blog links
 
 * 掘金：https://juejin.im/user/5a12900351882509e54348ac
 * segmentfault：https://segmentfault.com/u/zhengzhuang96
-* 知乎：https://www.zhihu.com/people/beliefs1995/activities
 
 
 ## 🎉 整理我平时关注并使用的前端库
