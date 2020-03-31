@@ -4,7 +4,7 @@
 
 #### （1）使用Android Studio创建项目
 
-<img src='/Users/zhengzhuang/Library/Application Support/typora-user-images/image-20200331161158331.png' width='500' alt='android studio 创建插件项目' />
+![image](https://user-images.githubusercontent.com/29434858/78005959-e7c0f200-736e-11ea-8df3-0f93597c7230.png)
 
 #### （2）使用`flutter create`命令行创建
 
@@ -20,8 +20,7 @@ flutter create --org com.awei --template=plugin -a java --description "A Flutter
 - -i：用什么语言编写iOS代码
 
 上面那个命令的意思是：创建一个插件，包名为“com.awei”，指定Android代码使用Java语言编写，插件项目名称为“flutter_device_information”，项目描述为：“A Flutter plugin for using devices informations in Android”。
-
-<img src='https://upload-images.jianshu.io/upload_images/6098829-378c8ff66e6b945d.png' width='400' alt='完整的项目结构' />
+![6098829-378c8ff66e6b945d](https://user-images.githubusercontent.com/29434858/78006057-0b843800-736f-11ea-9205-9f320b86b382.png)
 
 到这里项目创建完成，接下来就是进行项目插件的开发工作，这里就不做进行详细的介绍，等项目创建完成之后接下来就是上传到github仓库中
 
@@ -32,8 +31,6 @@ dependencies:
   rain:
     git: https://github.com/zhengzhuang96/flutter_eui.git
 ```
-
-
 
 #### 将项目发布到pub中
 
@@ -55,20 +52,17 @@ flutter packages pub publish --server=https://pub.dartlang.org
 ```
 
 运行之后显示`Look greate! Are you ready to upload your package（y/n）?`证明并无问题是否发布，输入y
-
-<img src='/Users/zhengzhuang/Library/Application Support/typora-user-images/image-20200331145358750.png' width='500' alt='android studio 创建插件项目' />
+<img width="538" alt="image-20200331145358750" src="https://user-images.githubusercontent.com/29434858/78006100-1dfe7180-736f-11ea-9980-c5e3052f8d3c.png">
 
 它会让你去进行账号授权，复制它给你的连接放到浏览器中进行授权，这里就需要翻墙了，授权成功出现下面的结果就证明成功，然后等待上传
-
-![image-20200331145619616](/Users/zhengzhuang/Library/Application Support/typora-user-images/image-20200331145619616.png)
+![image-20200331145619616](https://user-images.githubusercontent.com/29434858/78006131-2a82ca00-736f-11ea-9341-a1bc68e51780.png)
 
 等待上传会很慢，这里要是一只卡住，说明你的终端没有翻墙成功
 
-![image-20200331145609390](/Users/zhengzhuang/Library/Application Support/typora-user-images/image-20200331145609390.png)
+<img width="1083" alt="image-20200331145609390" src="https://user-images.githubusercontent.com/29434858/78006411-92391500-736f-11ea-89e2-b7ad723fabe7.png">
 
 等一切上传之后出现`Successfully uploaded package.`证明上传成功
-
-![image-20200331163516059](/Users/zhengzhuang/Library/Application Support/typora-user-images/image-20200331163516059.png)
+<img width="356" alt="image-20200331163516059" src="https://user-images.githubusercontent.com/29434858/78006386-877e8000-736f-11ea-8166-06afaf1e40db.png">
 
 当你上传成功之后，在`https://pub.flutter-io.cn/`中不能瞬间出现的，需要大约等20分钟时到1小时左右，才能搜索到，其实上传成功之后就不用等待了，直接可以在项目中使用
 
@@ -79,4 +73,3 @@ dependencies:
 ```
 
 大功告成！！！
-
