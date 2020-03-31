@@ -1,0 +1,58 @@
+## Flutter原生路由进阶之路
+
+#### 1.创建路由文件
+
+新建 lib/router/Routes.dart 文件
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:mqtt_flutter/pages/index.dart';
+import 'package:mqtt_flutter/pages/private_chat.dart';
+
+final routes = {
+  '/': (context) => Index(),
+  '/privateChat': (context) => PrivateChat(),
+};
+
+// 如果你要把路由抽离出去，必须写下面这一堆的代码，不用理解什么意思
+var onGenerateRoute = (RouteSettings settings) {
+  // 统一处理
+  final String name = settings.name;
+  final Function pageContentBuilder = routes[name];
+  if (pageContentBuilder != null) {
+    if (settings.arguments != null) {
+      final Route route = MaterialPageRoute(
+        builder: (context) => pageContentBuilder(context, arguments: settings.arguments),
+      );
+      return route;
+    } else {
+      final Route route = MaterialPageRoute(builder: (context) => pageContentBuilder(context));
+      return route;
+    }
+  }
+};
+
+```
+
+#### 2.导入main文件
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:mqtt_flutter/router/Routes.dart';
+import 'service/mqtt_client.dart';
+
+void main() => MyApp();
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      /// 路由, 这里是路由模块的固定写法
+      initialRoute: '/', // 配置默认访问路径
+      onGenerateRoute: onGenerateRoute, // 路由固定写法
+    );
+  }
+}
+```
+

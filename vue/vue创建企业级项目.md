@@ -1,6 +1,6 @@
-####  Vue创建企业级项目
+##  vue-cli4.x创建企业级项目
 
-##### 创建项目
+#### 创建项目
 
 ```
 $ vue create vue-demo
@@ -14,7 +14,7 @@ $ vue ui
 
 来进行创建，两种方式在创建的时候，直接选择上router和vuex，来进行项目创建
 
-##### 移动端Vant
+#### 移动端Vant
 
 ```
 # 通过 npm 安装
@@ -61,7 +61,7 @@ module.exports = {
 import { Button } from 'vant';
 ```
 
-##### Rem 适配
+#### Rem 适配
 
 Rem 适配
 Vant 中的样式默认使用px作为单位，如果需要使用rem单位，推荐使用以下两个工具
@@ -133,3 +133,4 @@ $ npm install css-loader --save-dev
 ```js
 npm install sass-loader --save-dev
 ```
+
