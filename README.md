@@ -67,5 +67,5 @@ From here you can find all my blog links
 * [flutter原生路由](https://github.com/zhengzhuang96/blog/blob/master/flutter/flutter%E5%8E%9F%E7%94%9F%E8%B7%AF%E7%94%B1.md)
 * [MQTT在flutter中的使用](https://github.com/zhengzhuang96/blog/blob/master/flutter/mqtt/flutter_mqtt.md)
 * [vue-cli4.x创建企业级项目](https://github.com/zhengzhuang96/blog/blob/master/vue/vue%E5%88%9B%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E9%A1%B9%E7%9B%AE.md)
-* [Flutter创建插件详解并发布到Pub库](https://github.com/zhengzhuang96/blog/blob/master/vue/vue%E5%88%9B%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E9%A1%B9%E7%9B%AE.md)
+* [Flutter创建插件详解并发布到Pub库](https://github.com/zhengzhuang96/blog/blob/master/flutter/Flutter%E5%88%9B%E5%BB%BA%E6%8F%92%E4%BB%B6%E8%AF%A6%E8%A7%A3%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0Pub%E5%BA%93.md)
 
