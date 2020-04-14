@@ -1,8 +1,16 @@
 ##  vue-cli4.x创建企业级项目
 
+#### 安装脚手架（vue-cli）
+
+```js
+$ npm install @vue/cli -g //全局安装最新的脚手架
+```
+
+
+
 #### 创建项目
 
-```
+```js
 $ vue create vue-demo
 ```
 
