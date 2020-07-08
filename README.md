@@ -60,12 +60,20 @@ From here you can find all my blog links
 ### <span id="blogArticles">博客文章</span>
 
 #### Flutter
-* [flutter_fluro](https://github.com/zhengzhuang95/blog/blob/master/flutter/flutter_fluro.md) - Flutter路由项目实战之fluro
-* [flutter原生路由](https://github.com/zhengzhuang96/blog/blob/master/flutter/flutter%E5%8E%9F%E7%94%9F%E8%B7%AF%E7%94%B1.md)
-* [MQTT在flutter中的使用](https://github.com/zhengzhuang96/blog/blob/master/flutter/mqtt/flutter_mqtt.md)
-* [Flutter创建插件详解并发布到Pub库](https://github.com/zhengzhuang96/blog/blob/master/flutter/Flutter%E5%88%9B%E5%BB%BA%E6%8F%92%E4%BB%B6%E8%AF%A6%E8%A7%A3%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0Pub%E5%BA%93.md)
+* [flutter_fluro](./flutter/flutter_fluro.md) - Flutter路由项目实战之fluro
+* [flutter原生路由](./flutter/flutter原生路由.md)
+* [MQTT在flutter中的使用](./flutter/mqtt/flutter_mqtt.md)
+* [Flutter创建插件详解并发布到Pub库](./flutter/Flutter创建插件详解并发布到Pub库.md)
 * [flutter实用方法](./flutter/flutter实用方法.md)
 
 #### Vue
-* [vue-cli4.x创建企业级项目](https://github.com/zhengzhuang96/blog/blob/master/vue/vue%E5%88%9B%E5%BB%BA%E4%BC%81%E4%B8%9A%E7%BA%A7%E9%A1%B9%E7%9B%AE.md)
+* [vue-cli4.x创建企业级项目](./vue/vue创建企业级项目.md)
+
+#### JavaScript
+* [JavaScript数组去重](./javascript/JavaScript数组去重.md)
+* [JS 判断PC、android、ios、微信浏览器](./javascript/JS判断PC、android、ios、微信浏览器.md)
+
+#### Git
+* [git入门学习](./git/git入门学习.md)
+* [如何把分支代码合并到master主分支上](./git/如何把分支代码合并到master主分支上.md)
 
