@@ -72,6 +72,7 @@ sudo spctl --master-disable
 ![image](https://user-images.githubusercontent.com/29434858/77275216-bb640080-6cf2-11ea-9342-625dfcb018a4.png)
  完了点好。如果出现连接错误:
 打开终端，通过终端连接mysql数据库时候我们会看到这样的信息：
+
 ```
 1045 - Access denied for user 'root'@'localhost' (using password: YES)
 ```

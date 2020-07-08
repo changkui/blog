@@ -9,7 +9,7 @@
 #### （2）使用`flutter create`命令行创建
 
 ```dart
-flutter create --org com.awei --template=plugin -a java --description "A Flutter plugin for using devices informations in Android" flutter_device_information
+flutter create --org com.rain --template=plugin -i objc -a java --description "A Flutter plugin for using devices informations in Android" flutter_device_information
 ```
 
 常用的命令参数如下：
@@ -68,8 +68,7 @@ flutter packages pub publish --server=https://pub.dartlang.org
 
 ```dart
 dependencies:
-  rain:
-    git: 0.0.1
+  rain: 0.0.1
 ```
 
 大功告成！！！

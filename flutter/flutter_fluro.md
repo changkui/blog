@@ -239,3 +239,4 @@ NavigatorUtil.goToLoginRemovePage(context);
 ```
 NavigatorUtil.jump(context, '/routingReference?id=${Uri.encodeComponent("中文参数")}');
 ```
+

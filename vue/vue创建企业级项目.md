@@ -17,7 +17,7 @@ $ vue create vue-demo
 在创建项目的时候可以使用
 
 ```
-$ vue ui
+  $ vue ui
 ```
 
 来进行创建，两种方式在创建的时候，直接选择上router和vuex，来进行项目创建
@@ -35,7 +35,19 @@ $ yarn add vant
 我这里都是使用的按需引入，用了
 babel-plugin-import 是一款 babel 插件，它会在编译过程中将 import 的写法自动转换为按需引入的方式
 
-#### 安装插件
+### 导入所有组件
+
+```
+import Vue from 'vue';
+import Vant from 'vant';
+import 'vant/lib/index.css';
+
+Vue.use(Vant);
+```
+
+
+
+#### 安装插件按需引入
 
 ```
 npm i babel-plugin-import -D
@@ -89,28 +101,41 @@ $ npm install postcss-pxtorem --save-dev
 2.安装lib-flexible
 
 ```
-$ npm i -S amfe-flexible  ||  npm install --save lib-flexible
+$ npm install --save lib-flexible
 ```
 
 3.在main.js中引入lib-flexible
 
 ```
-import  'lib-flexible';
+import 'lib-flexible';
 ```
 
 4.在根目录新建postcss.config.js文件，在文件中进行配置
 
 ```js
 module.exports = {
-  plugins: {
-    'autoprefixer': {
-      browsers: ['Android >= 4.0', 'iOS >= 8']
-    },
-    'postcss-pxtorem': {
-      rootValue: 37.5,
-      propList: ['*']
+    plugins: {
+        'autoprefixer': {
+            browsers: ['Android >= 4.0', 'iOS >= 8']
+        },
+        'postcss-pxtorem': {
+            rootValue: 75.0,
+            propList: ['*']
+        }
     }
-  }
+}
+module.exports = ({ file }) => {
+    let isVant = file && file.dirname && file.dirname.indexOf("vant") > -1;
+    let rootValue = isVant ? 37.5 : 75; // 判断条件 请自行调整
+    return {
+        plugins: {
+            autoprefixer: {},
+            "postcss-pxtorem": {
+                rootValue: rootValue,
+                propList: ["*"] 
+            }
+        }
+    }
 }
 ```
 
@@ -120,19 +145,19 @@ module.exports = {
 
 在main.js中引用iconfont/iconfont.css
 
-```
+```vue
 import './assets/Iconfont/iconfont.css'
 ```
 
 查看本地依赖中是否有sass-loader，如果没有需要安装一下
 
-```
+```js
 $ npm install css-loader --save-dev
 ```
 
 文件中使用
 
-```
+```vue
 <i class="iconfont iconsearch"></i>
 ```
 
@@ -140,5 +165,31 @@ $ npm install css-loader --save-dev
 
 ```js
 npm install sass-loader --save-dev
+```
+
+
+
+#### 关于router
+
+vue-router默认的路由模式是hash，我们要去掉url中的#需要将路由模式切换为history
+
+```vue
+const router = new VueRouter({
+  mode: 'history',
+  ...
+})
+```
+
+#### 打包
+
+根文件夹新建vue.config.js
+
+```
+module.exports = {
+  lintOnSave: false,
+  publicPath: './',
+  // publicPath: '/',
+  productionSourceMap: false
+}
 ```
 
