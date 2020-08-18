@@ -31,7 +31,6 @@ var onGenerateRoute = (RouteSettings settings) {
     }
   }
 };
-
 ```
 
 #### 2.导入main文件
@@ -54,5 +53,17 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+```
+
+#### 3.使用
+
+```
+/// 路由跳转
+Navigator.pushNamed(context, '/privateChat');
+
+/// 路由返回
+Navigator.pop(context);
+
+...
 ```
 

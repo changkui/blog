@@ -5,7 +5,7 @@
 
     var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
     var flag = true;
-
+    
     /**
      * 初始化加载程序
      */
@@ -14,7 +14,7 @@
         console.log(isWechat());
         console.log(getOsVersion());
     }
-
+    
     /**
      * 判断是不是移动端
      * @returns {boolean}
@@ -30,14 +30,14 @@
         document.write("是否移动端-"+ !flag+"//");
         return "是否移动端-" + !flag;
     }
-
+    
     /**
      * 判断是不是微信浏览器
      * @returns {boolean}
      */
     function isWechat() {
         var ua = navigator.userAgent.toLowerCase();
-
+    
         if(ua.match(/MicroMessenger/i)=="micromessenger"){
             document.write("是微信浏览器//");
             return "是微信浏览器";
@@ -47,7 +47,7 @@
             return "不是微信浏览器";
         }
     }
-
+    
     /**
      * 判断浏览器所在机器操作系统版本
      */
