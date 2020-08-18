@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
 
 #### 3.使用
 
-```
+```dart
 /// 路由跳转
 Navigator.pushNamed(context, '/privateChat');
 
