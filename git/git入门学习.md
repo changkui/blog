@@ -21,7 +21,7 @@ Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有
 第二步生成SSH密钥，这里生成SSh是因为git是有SSH加密验签的：
 
  1. 查看是否先`cd C:\Users\Administrator\.ssh`文件夹查看一下看是否已经有了ssh密钥，如果没有密钥则不会有此文件夹，有的话就备份删除
- 2. 生成密钥：`$ssh-keygen -t rsa -C "zheng951203@163.com"`, 最后得到两个文件
+ 2. 生成密钥：`$ssh-keygen -t rsa -C "zheng951203@163.com"`, 最后得到两个文件<br />
     ![1](https://user-images.githubusercontent.com/29434858/51579166-e8ecc880-1efa-11e9-9776-3a7b364783ee.png)
 
     加上原来的一个文件，共3个文件
@@ -35,11 +35,11 @@ Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有
 ---
 开始使用github：
 
- 1. 创建github库
-     ![2](https://user-images.githubusercontent.com/29434858/51579175-f30ec700-1efa-11e9-8861-14c369445e1a.png)
+ 1. 创建github库<br />
+    <img src="https://user-images.githubusercontent.com/29434858/51579175-f30ec700-1efa-11e9-8861-14c369445e1a.png" width="700px" height="auto" />
 
 
- 2. 在本地创建新文件夹，并在文件夹中生成README.md文件，这里主要用于测试上传
+ 2. 在本地创建新文件夹，并在文件夹中生成README.md文件，这里主要用于测试上传<br />
      ![3](https://user-images.githubusercontent.com/29434858/51579182-f99d3e80-1efa-11e9-8316-7ef6b0d1eb86.png)
 
  3. 打开Git Bash，其实打开CMD也可以，看着也舒服，这里作者就打开CMD进行操作

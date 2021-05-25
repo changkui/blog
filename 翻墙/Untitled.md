@@ -1,4 +1,4 @@
-```
+```js
 function proxy_off(){
     unset http_proxy
     unset https_proxy
@@ -15,3 +15,5 @@ function proxy_on() {
 
 proxy_on
 proxy_off
+
+https://sb520.xyz/s/q2N4G

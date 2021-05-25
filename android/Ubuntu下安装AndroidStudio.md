@@ -11,11 +11,11 @@
 
 使用如下三条命令，安装JDK
 --------------
-
-    sudo add-apt-repository ppa:webupd8team/java 
-    sudo apt-get update 
-    sudo apt-get install oracle-java8-installer 
-
+```
+sudo add-apt-repository ppa:webupd8team/java 
+sudo apt-get update 
+sudo apt-get install oracle-java8-installer 
+```
 按照上面三条指令进行以此安装
 ![1](https://user-images.githubusercontent.com/29434858/51580232-c2c92780-1efe-11e9-9e5c-9578e8da47e6.png)
 ![2](https://user-images.githubusercontent.com/29434858/51580236-c8267200-1efe-11e9-9ef5-488282287a2b.png)

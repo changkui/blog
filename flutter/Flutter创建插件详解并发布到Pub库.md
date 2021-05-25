@@ -4,7 +4,7 @@
 
 #### （1）使用Android Studio创建项目
 
-![image](https://user-images.githubusercontent.com/29434858/78005959-e7c0f200-736e-11ea-8df3-0f93597c7230.png)
+<img src="https://user-images.githubusercontent.com/29434858/78005959-e7c0f200-736e-11ea-8df3-0f93597c7230.png" width="700px" height="auto" />
 
 #### （2）使用`flutter create`命令行创建
 
@@ -20,7 +20,7 @@ flutter create --org com.rain --template=plugin -i objc -a java --description "A
 - -i：用什么语言编写iOS代码
 
 上面那个命令的意思是：创建一个插件，包名为“com.awei”，指定Android代码使用Java语言编写，插件项目名称为“flutter_device_information”，项目描述为：“A Flutter plugin for using devices informations in Android”。
-![6098829-378c8ff66e6b945d](https://user-images.githubusercontent.com/29434858/78006057-0b843800-736f-11ea-9205-9f320b86b382.png)
+<img src="https://user-images.githubusercontent.com/29434858/78006057-0b843800-736f-11ea-9205-9f320b86b382.png" width="450px" height="auto" />
 
 到这里项目创建完成，接下来就是进行项目插件的开发工作，这里就不做进行详细的介绍，等项目创建完成之后接下来就是上传到github仓库中
 
@@ -51,17 +51,17 @@ homepage: https://github.com/zhengzhuang96/rain.git
 flutter packages pub publish --server=https://pub.dartlang.org
 ```
 
-运行之后显示`Look greate! Are you ready to upload your package（y/n）?`证明并无问题是否发布，输入y
-<img width="538" alt="image-20200331145358750" src="https://user-images.githubusercontent.com/29434858/78006100-1dfe7180-736f-11ea-9980-c5e3052f8d3c.png">
+运行之后显示`Look greate! Are you ready to upload your package（y/n）?`证明并无问题是否发布，输入y<br />
+<img alt="image-20200331145358750" src="https://user-images.githubusercontent.com/29434858/78006100-1dfe7180-736f-11ea-9980-c5e3052f8d3c.png" width="538px" height="auto" />
 
-它会让你去进行账号授权，复制它给你的连接放到浏览器中进行授权，这里就需要翻墙了，授权成功出现下面的结果就证明成功，然后等待上传
-![image-20200331145619616](https://user-images.githubusercontent.com/29434858/78006131-2a82ca00-736f-11ea-9341-a1bc68e51780.png)
+它会让你去进行账号授权，复制它给你的连接放到浏览器中进行授权，这里就需要翻墙了，授权成功出现下面的结果就证明成功，然后等待上传<br />
+<img src="https://user-images.githubusercontent.com/29434858/78006131-2a82ca00-736f-11ea-9341-a1bc68e51780.png" width="800px" height="auto" />
 
-等待上传会很慢，这里要是一只卡住，说明你的终端没有翻墙成功
+等待上传会很慢，这里要是一只卡住，说明你的终端没有翻墙成功<br />
 
-<img width="1083" alt="image-20200331145609390" src="https://user-images.githubusercontent.com/29434858/78006411-92391500-736f-11ea-89e2-b7ad723fabe7.png">
+<img width="1083px" alt="image-20200331145609390" src="https://user-images.githubusercontent.com/29434858/78006411-92391500-736f-11ea-89e2-b7ad723fabe7.png">
 
-等一切上传之后出现`Successfully uploaded package.`证明上传成功
+等一切上传之后出现`Successfully uploaded package.`证明上传成功<br />
 <img width="356" alt="image-20200331163516059" src="https://user-images.githubusercontent.com/29434858/78006386-877e8000-736f-11ea-8166-06afaf1e40db.png">
 
 当你上传成功之后，在`https://pub.flutter-io.cn/`中不能瞬间出现的，需要大约等20分钟时到1小时左右，才能搜索到，其实上传成功之后就不用等待了，直接可以在项目中使用

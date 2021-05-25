@@ -16,4 +16,3 @@ show databases;
 create database python_test_1 charset=utf8;
 ```
 
-

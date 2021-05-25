@@ -1,0 +1,9 @@
+{
+  "workbench.experimental.editorAssociations": [
+    {
+      "viewType": "vscode.markdown.preview.editor",
+      "filenamePattern": "*.md"
+    }
+  ],
+  "editor.tabSize": 2
+}
