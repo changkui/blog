@@ -15,8 +15,7 @@ $ whick ruby
 ```
 $ ruby --version
 ```
-
-<img src="/Users/zhengzhuang/Documents/codeProject/blog/工具力/image-20210526091550956.png" alt="image-20210526091550956" style="zoom:50%;" />
+<img width="565" alt="image-20210526091550956" src="https://user-images.githubusercontent.com/29434858/119590044-98f1d980-be06-11eb-85ad-ae12c6bf58bc.png">
 
 #### 2. 安装
 
@@ -37,8 +36,7 @@ $ brew --version		// 测试是否已安装成功
 ```
 $ which brew		// 安装成功则显示路径
 ```
-
-![image-20210526092134873](/Users/zhengzhuang/Documents/codeProject/blog/工具力/image-20210526092134873.png)
+<img width="600" alt="image-20210526092134873" src="https://user-images.githubusercontent.com/29434858/119590078-adce6d00-be06-11eb-8002-3e1506b9cba0.png">
 
 #### 4. brew基本用法
 
@@ -53,8 +51,7 @@ $ brew install nodejs
 ```
 
 然后等待安装就行了，安装成功之后输入命令查看，nodejs的最新版本就被安装成功啦
-
-![image-20210526092536599](/Users/zhengzhuang/Documents/codeProject/blog/工具力/image-20210526092536599.png)
+<img width="165" alt="image-20210526092536599" src="https://user-images.githubusercontent.com/29434858/119590102-b6bf3e80-be06-11eb-93ce-1a5fae216757.png">
 
 > 当然我这里习惯先安装nvm管理node，brew先安装nvm，用nvm来进行安装和管理node版本
 
