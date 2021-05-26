@@ -51,6 +51,7 @@ $ brew install nodejs
 ```
 
 然后等待安装就行了，安装成功之后输入命令查看，nodejs的最新版本就被安装成功啦
+
 <img width="165" alt="image-20210526092536599" src="https://user-images.githubusercontent.com/29434858/119590102-b6bf3e80-be06-11eb-93ce-1a5fae216757.png">
 
 > 当然我这里习惯先安装nvm管理node，brew先安装nvm，用nvm来进行安装和管理node版本
