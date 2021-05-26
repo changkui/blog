@@ -77,6 +77,6 @@ From here you can find all my blog links
 * [git入门学习](./git/git入门学习.md)
 * [如何把分支代码合并到master主分支上](./git/如何把分支代码合并到master主分支上.md)
 
-#### 工具里
+#### 工具力
 
 - [MAC上安装brew方式及使用技巧](./工具力/MAC上安装brew.md)
