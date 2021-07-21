@@ -8,11 +8,11 @@
 
 **brew**是**ruby**开发的，需要确认**ruby**是否已安装，默认在**MacOS**下是已经安装的。
 
-```
+```bash
 $ whick ruby
 ```
 
-```
+```bash
 $ ruby --version
 ```
 <img width="565" alt="image-20210526091550956" src="https://user-images.githubusercontent.com/29434858/119590044-98f1d980-be06-11eb-85ad-ae12c6bf58bc.png">
@@ -21,7 +21,7 @@ $ ruby --version
 
 执行命令（网上好多方式都卡住，找了一个gitee源）
 
-```
+```bash
 $ /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
 
@@ -29,11 +29,11 @@ $ /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homeb
 
 #### 3. 确认
 
-```
+```bash
 $ brew --version		// 测试是否已安装成功
 ```
 
-```
+```bash
 $ which brew		// 安装成功则显示路径
 ```
 <img width="600" alt="image-20210526092134873" src="https://user-images.githubusercontent.com/29434858/119590078-adce6d00-be06-11eb-8002-3e1506b9cba0.png">
@@ -46,7 +46,7 @@ $ which brew		// 安装成功则显示路径
 
 brew的安装目录在 `/usr/local/Cellar`，我们以安装`nodejs`为例子，只需要执行：
 
-```
+```bash
 $ brew install nodejs
 ```
 
@@ -58,7 +58,7 @@ $ brew install nodejs
 
 **brew**还可以安装软件到你的**MacOs**
 
-```
+```bash
 $ brew cask install visual-studio-code
 ```
 
@@ -66,7 +66,7 @@ $ brew cask install visual-studio-code
 
 其他命令
 
-```
+```bash
 $ brew upgrade nodejs							# 更新软件
 $ brew remove nodejs							# 卸载软件
 $ brew list      									# 列出当前安装的软件 
@@ -78,7 +78,7 @@ $ brew info nodejs            		# 查询 nodejs 的安装信息(以nodejs举例)
 
 brew services 是一个非常强大的工具，可以管理软件，进行停止、重启等
 
-```text
+```bash
 brew install elasticsearch          # 安装 elasticsearch
 brew services start elasticsearch   # 启动 elasticsearch
 brew services stop elasticsearch    # 停止 elasticsearch
@@ -87,3 +87,4 @@ brew services list                  # 列出当前的状态
 ```
 
 开始你的brew之旅吧！
+

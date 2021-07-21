@@ -49,7 +49,7 @@ Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有
     * git add README.md
     * git commit -m "first commit"
     * git remote add origin git@github.com:zhengzhuang95/test.git
-    * git push -u origin master
+    * git push -u origin main
     
      ![4](https://user-images.githubusercontent.com/29434858/51579193-0326a680-1efb-11e9-9b9f-953a3e574cc8.png)
 
@@ -60,8 +60,8 @@ Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有
 
     git add --all
     git commit -m 'second'
-    git pull origin master
-    git push origin master
+    git pull origin main
+    git push origin main
 
 结束语
 ===
