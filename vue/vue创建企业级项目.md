@@ -92,27 +92,32 @@ lib-flexible  用于设置rem基准值
 
 ###### 步骤
 
-1.安装postcss-pxtorem
+1.安装`px转rem`插件 安装postcss-px2rem-exclude lib-flexible
 
 ```
-$ npm install postcss-pxtorem --save-dev
+npm install postcss-px2rem-exclude lib-flexible -s
 ```
 
-2.安装lib-flexible
-
-```
-$ npm install --save lib-flexible
-```
-
-3.在main.js中引入lib-flexible
+2.在main.js中引入lib-flexible
 
 ```
 import 'lib-flexible';
 ```
 
-4.在根目录新建postcss.config.js文件，在文件中进行配置
+3.在根目录新建postcss.config.js文件，在文件中进行配置
 
 ```js
+module.exports = {
+  plugins: {
+      "postcss-px2rem-exclude": {
+          remUnit: 75,
+          remPrecision: 2,
+          exclude: /node_modules|folder_name/i
+      }
+  }
+};
+
+/**
 module.exports = {
     plugins: {
         'autoprefixer': {
@@ -137,6 +142,7 @@ module.exports = ({ file }) => {
         }
     }
 }
+*/
 ```
 
 #### vue-cli3中使用iconfont
